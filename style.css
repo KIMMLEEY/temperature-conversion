@@ -12,4 +12,38 @@ form{
     max-width: 350px;
     margin: auto;
     padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(94, 40, 40);
+
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid hsl(0, 33%, 6%);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+button{
+    margin-top: 15px;
+    background-color: rgb(73, 139, 11);
+    color: aliceblue;
+    font-size: 1.5em;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(103, 187, 24);
+
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
 }
